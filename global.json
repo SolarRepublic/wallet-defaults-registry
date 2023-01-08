@@ -1,12 +1,16 @@
 {
 	"queries": {
-		"concurrency": 6,
-		"capacity": 16,
-		"resolution": 10e3
+		"defaultRateLimit": {
+			"concurrency": 6,
+			"capacity": 16,
+			"resolution": 10e3
+		}
 	},
 	"webApis": {
-		"concurrency": 10,
-		"capacity": 20,
-		"resolution": 60e3
+		"defaultRateLimit": {
+			"concurrency": 10,
+			"capacity": 20,
+			"resolution": 60e3
+		}
 	}
 }
