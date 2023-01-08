@@ -1,32 +1,12 @@
 {
-	"chains": {
-		"cosmos:pulsar-2": {
-			"providers": [
-				{
-					"name": "StarShell",
-					"grpcWebUrl": "https://grpc-web.tactus-1.cosmos-theta.starshell.net/",
-					"rpcHost": "rpc.tactus-1.cosmos-theta.starshell.net",
-					"on": 1
-				},
-				{
-					"name": "SCRT Testnet Committee",
-					"grpcWebUrl": "https://grpc.pulsar.scrttestnet.com",
-					"rpcHost": "rpc.pulsar.scrttestnet.com",
-					"on": 1
-				},
-				{
-					"name": "𝕊ecret 𝕊aturn",
-					"grpcWebUrl": "https://grpc.testnet.secretsaturn.net",
-					"rpcHost": "rpc.testnet.secretsaturn.net",
-					"on": 1
-				},
-				{
-					"name": "Trivium",
-					"grpcWebUrl": "https://pulsar-2.api.trivium.network:9091",
-					"rpcHost": "pulsar-2.api.trivium.network:26657",
-					"on": 1
-				}
-			]
-		}
+	"queries": {
+		"concurrency": 6,
+		"capacity": 16,
+		"resolution": 10e3
+	},
+	"webApis": {
+		"concurrency": 10,
+		"capacity": 20,
+		"resolution": 60e3
 	}
 }
