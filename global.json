@@ -12,5 +12,13 @@
 			"capacity": 20,
 			"resolution": 60e3
 		}
+	},
+	"chainSettings": {
+		"cosmos:secret-4": {
+			"simulationGasMultiplier": 1.01
+		},
+		"cosmos:pulsar-2": {
+			"simulationGasMultiplier": 1.1
+		}
 	}
 }
