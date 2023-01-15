@@ -15,9 +15,11 @@
 	},
 	"chainSettings": {
 		"cosmos:secret-4": {
+			"defaultGasPrice": 0.1,
 			"simulationGasMultiplier": 1.01
 		},
 		"cosmos:pulsar-2": {
+			"defaultGasPrice": 0.1,
 			"simulationGasMultiplier": 1.1
 		}
 	}
