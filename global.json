@@ -18,7 +18,7 @@
 			"defaultGasPrice": 0.1,
 			"simulationGasMultiplier": 1.05
 		},
-		"cosmos:pulsar-2": {
+		"cosmos:pulsar-3": {
 			"defaultGasPrice": 0.1,
 			"simulationGasMultiplier": 1.1
 		}
